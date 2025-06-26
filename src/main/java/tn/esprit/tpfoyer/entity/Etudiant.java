@@ -18,6 +18,10 @@ import java.util.Set;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Etudiant {
 
+    public Etudiant(long l, String string, String string2, long m) {
+        //TODO Auto-generated constructor stub
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long idEtudiant;
