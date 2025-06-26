@@ -73,5 +73,4 @@ class EtudiantServiceImplTest {
         verify(etudiantRepository, times(1)).findById(1L);
     }
 
-    // ... rest of your test methods remain the same ...
 }
