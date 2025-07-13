@@ -36,7 +36,7 @@ services:
     depends_on:
       - mysqldb
     ports:
-      - "8081:80"
+      - "8081:8081"
     environment:
       PMA_HOST: mysqldb
       PMA_USER: root
